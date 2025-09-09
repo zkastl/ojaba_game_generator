@@ -230,7 +230,7 @@ class AcademicTeamQuestionGenerator:
             ]
         }
     
-    def get_tossup_question_data(self, filename='./sample_questions.txt'):
+    def get_tossup_question_data(self, num_questions=20, filename='./sample_questions.txt'):
         """Randomly samples from the questions file 20 questions"""
         data = []
         with open(filename, 'r', encoding='utf-8') as csvfile:
@@ -245,12 +245,12 @@ class AcademicTeamQuestionGenerator:
                     }
                 )
 
-        rng = random.Random()
-        sample_size = 20
+        rng = random.Random(12345)
+        sample_size = num_questions
         return rng.sample(data, sample_size)
 
 
-    def generate_document(self, output_base):
+    def generate_document(self, output_base, num_tossup=20):
         """Generate PDF document with simple linked TOC"""
         print("Generating PDF document with simple TOC...")
         
@@ -270,7 +270,7 @@ class AcademicTeamQuestionGenerator:
         story.extend(self.create_title_page())
         
         # tossup section with anchor
-        questions = self.get_tossup_question_data()
+        questions = self.get_tossup_question_data(num_questions=num_tossup)
         if questions:
             for n, question in enumerate(questions):
                 print(f"Writing question {n+1}")
@@ -280,16 +280,16 @@ class AcademicTeamQuestionGenerator:
         story.append(PageBreak())
 
         # sixty-second section with anchor
-        data = self.get_sample_data2()
+        # data = self.get_sample_data2()
 
-        story.extend(self.create_sixtysecond_round(data))
-        story.append(Spacer(width=0, height=10))
+        # story.extend(self.create_sixtysecond_round(data))
+        # story.append(Spacer(width=0, height=10))
 
-        story.extend(self.create_sixtysecond_round(data))
-        story.append(Spacer(width=0, height=10))
+        # story.extend(self.create_sixtysecond_round(data))
+        # story.append(Spacer(width=0, height=10))
 
-        story.extend(self.create_sixtysecond_round(data))
-        story.append(PageBreak())
+        # story.extend(self.create_sixtysecond_round(data))
+        # story.append(PageBreak())
 
         doc.build(story)
         print(f"PDF document saved as: {pdf_filename}")
@@ -302,10 +302,12 @@ def main():
     parser.add_argument('--output', default='Questions',
                        help='Output filename base')
     
+    parser.add_argument('--num_tossup', default='80', help='number of tossups to generate')
+    
     args = parser.parse_args()
     
     generator = AcademicTeamQuestionGenerator(args.questions)
-    generator.generate_document(args.output)
+    generator.generate_document(args.output, int(args.num_tossup))
     
     print("\nSuccess! Directory generated as PDF")
 

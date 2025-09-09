@@ -1,6 +1,6 @@
-"Given that 3<super>3</super> is 27, what is 3<super>4</super>?"	81	math	56
+<b>COMPUTATION:</b> "Given that 3<super>3</super> is 27, what is 3<super>4</super>?"	81	math	56
 Gerald Ford was sworn into office when what President resigned?	Richard Nixon	socialstudies	56
-"If 6 times <i>x</i> equals 78, what does <i>x</i> times 4 equal?"	52	math	56
+<b>COMPUTATION:</b> If 6 times <i>x</i> equals 78, what does <i>x</i> times 4 equal?	52	math	56
 "Identify the proper nouns in the sentence, ""The captain sailed his ship to Africa and Asia."""	"Africa, Asia"	geography	56
 What compound that enters plant leaves through tiny holes called stomata is converted by the plant into sugar and water?	Carbon dioxide	science	56
 Name the ship that left England in 1620 carrying a load of Pilgrims headed for the New World. 	Mayflower	socialstudies	56
@@ -23,3 +23,102 @@ What is the full name of the first President whose father was also President?	Jo
 "In Charles Dickens's work A Tale of Two Cities, what are the two cities?"	Paris and London	literature	
 What is the name of the current state capitol that formerly served as the capitol city of the Confederacy?	"Richmond, Virginia"	socialstudies	
 What element is the most abundant mineral in the body?	Calcium	science	
+<b>COMPUTATION:</b> What is 347 + 289?	636	mathematics	5
+<b>COMPUTATION:</b> What is 8 × 7?	56	mathematics	5
+<b>COMPUTATION:</b> What is 144 ÷ 12?	12	mathematics	5
+<b>COMPUTATION:</b> What is 3/4 + 1/4?	1	mathematics	5
+<b>COMPUTATION:</b> Round 2,847 to the nearest hundred.	2,800	mathematics	5
+<b>COMPUTATION:</b> What is the area of a rectangle that is 6 feet long and 4 feet wide?	24 square feet	mathematics	5
+<b>COMPUTATION:</b> What is 15 × 20?	300	mathematics	5
+<b>COMPUTATION:</b> What is 500 - 237?	263	mathematics	5
+<b>COMPUTATION:</b> What is 2/3 of 12?	8	mathematics	5
+<b>COMPUTATION:</b> How many minutes are in 2 and a half hours?	150 minutes	mathematics	5
+<b>COMPUTATION:</b> What is the perimeter of a square with sides of 9 inches?	36 inches	mathematics	5
+<b>COMPUTATION:</b> What is 25% of 80?	20	mathematics	5
+<b>COMPUTATION:</b> What is 64 ÷ 8?	8	mathematics	5
+<b>COMPUTATION:</b> Convert 3 feet to inches.	36 inches	mathematics	5
+<b>COMPUTATION:</b> What is 1.5 + 2.3?	3.8	mathematics	5
+<b>COMPUTATION:</b> What number comes next in this pattern: 5, 10, 15, 20, ___?	25	mathematics	5
+<b>COMPUTATION:</b> What is 9²?	81	mathematics	5
+How many sides does an octagon have?	8	mathematics	5
+<b>COMPUTATION:</b> What is 7 × 9?	63	mathematics	5
+<b>COMPUTATION:</b> What is 1,000 - 456?	544	mathematics	5
+<b>COMPUTATION:</b> What is 3/8 + 1/8?	4/8 or 1/2	mathematics	5
+<b>COMPUTATION:</b> What is the product of 11 and 6?	66	mathematics	5
+<b>COMPUTATION:</b> What is 72 ÷ 9?	8	mathematics	5
+How many ounces are in one pound?	16 ounces	mathematics	5
+<b>COMPUTATION:</b> What is 40% of 50?	20	mathematics	5
+What is the closest star to Earth?	The Sun	science	5
+How many bones are in the adult human body?	206	science	5
+What gas do plants absorb from the air during photosynthesis?	Carbon dioxide	science	5
+What is the hardest natural substance on Earth?	Diamond	science	5
+How many chambers does a human heart have?	4	science	5
+What planet is known as the "Red Planet"?	Mars	science	5
+What do you call a scientist who studies rocks?	Geologist	science	5
+What is the chemical symbol for water?	H2O	science	5
+Which organ in the human body produces insulin?	Pancreas	science	5
+What is the process by which caterpillars become butterflies called?	Metamorphosis	science	5
+How many legs does a spider have?	8	science	5
+What type of animal is a whale?	Mammal	science	5
+What is the center of an atom called?	Nucleus	science	5
+Which planet is closest to the Sun?	Mercury	science	5
+What do you call animals that eat only plants?	Herbivores	science	5
+What is the boiling point of water in Celsius?	100 degrees	science	5
+What is the largest organ in the human body?	Skin	science	5
+What gas makes up most of Earth's atmosphere?	Nitrogen	science	5
+What do you call the path a planet takes around the Sun?	Orbit	science	5
+What type of rock is formed from cooled lava?	Igneous rock	science	5
+Who was the first President of the United States?	George Washington	history	5
+How many states are in the United States?	50	history	5
+What is the capital of California?	Sacramento	history	5
+Which ocean is on the east coast of the United States?	Atlantic Ocean	history	5
+What document begins with "We the People"?	The Constitution	history	5
+Who wrote the Declaration of Independence?	Thomas Jefferson	history	5
+What is the capital of Texas?	Austin	history	5
+Which war was fought between the North and South in America?	Civil War	history	5
+What are the first ten amendments to the Constitution called?	Bill of Rights	history	5
+Which continent is Egypt on?	Africa	history	5
+What is the longest river in the United States?	Missouri River	history	5
+Who was President during the Civil War?	Abraham Lincoln	history	5
+What is the capital of New York state?	Albany	history	5
+Which explorer is credited with discovering America in 1492?	Christopher Columbus	history	5
+What are the three branches of the U.S. government?	Executive, Legislative, Judicial	history	5
+What is the capital of Vermont?	Montpelier	history	5
+What is the largest mountain range that runs along the eastern United States?	Appalachian Mountains	history	5
+What holiday celebrates America's independence?	Fourth of July	history	5
+Who is on the one-dollar bill?	George Washington	history	5
+What is the largest state by area?	Alaska	history	5
+What is the plural of "child"?	Children	ela	5
+Which word is a synonym for "happy"?	Joyful (or glad, cheerful)	ela	5
+What is the past tense of "run"?	Ran	ela	5
+What do you call a word that describes a noun?	Adjective	ela	5
+Who wrote "Charlotte's Web"?	E.B. White	ela	5
+What is the opposite of "ancient"?	Modern	ela	5
+What punctuation mark ends a question?	Question mark	ela	5
+What do you call the main character in a story?	Protagonist	ela	5
+What is a group of words that expresses a complete thought?	Sentence	ela	5
+Which word rhymes with "night"?	Light (or sight, might, right)	ela	5
+What is the plural of "mouse"?	Mice	ela	5
+What do you call words that sound the same but are spelled differently?	Homophones	ela	5
+Who wrote "Where the Wild Things Are"?	Maurice Sendak	ela	5
+What is the past tense of "bring"?	Brought	ela	5
+What do you call a word that shows action?	Verb	ela	5
+What is the contraction for "do not"?	Don't	ela	5
+What punctuation mark shows possession?	Apostrophe	ela	5
+What do you call the person telling the story?	Narrator	ela	5
+What is a comparison using "like" or "as" called?	Simile	ela	5
+What is the plural of "foot"?	Feet	ela	5
+In basketball, how many players per team are on the court at one time?	5	sports	5
+In what sport would you hit a home run?	Baseball OR Softball	sports	5
+How many Super Bowl rings does Tom Brady have?	7	sports	5
+What Disney movie features the song "Let It Go"?	Frozen	sports	5
+In soccer, what body part can't touch the ball (except for the goalkeeper)?	Hands	sports	5
+What company makes the iPhone?	Apple	sports	5
+How many innings are in a regular baseball game?	9	sports	5
+What video game company gave us the characters, Mario and Luigi?	Nintendo	sports	5
+In football, how many points is a touchdown worth?	6	sports	5
+What streaming service is known for shows like "Stranger Things"?	Netflix	sports	5
+How many strikes do you need for a strikeout in baseball?	3	sports	5
+What sport is played at Wimbledon?	Tennis	sports	5
+What does "www" stand for in a website address?	World Wide Web	sports	5
+In what sport would you perform a slam dunk?	Basketball	sports	5
