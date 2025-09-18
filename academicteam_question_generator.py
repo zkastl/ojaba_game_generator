@@ -30,8 +30,9 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT
 class AcademicTeamQuestionGenerator:
     """Class to represent all functions and data for generating the KofC database"""
 
-    def __init__(self, data_path="ok_knights_directory.db"):
+    def __init__(self, data_path="questions.csv", seedval=None):
         self.data_path = data_path
+        self.seedval = seedval
         self.pdf_story = []
         self.pdf_styles = getSampleStyleSheet()
         self.setup_pdf_styles()
@@ -230,11 +231,11 @@ class AcademicTeamQuestionGenerator:
             ]
         }
     
-    def get_tossup_question_data(self, filename='./sample_questions.txt'):
+    def get_tossup_question_data(self, filename='./book1.csv'):
         """Randomly samples from the questions file 20 questions"""
         data = []
         with open(filename, 'r', encoding='utf-8') as csvfile:
-            reader = csv.reader(csvfile, delimiter='\t', quotechar='"')
+            reader = csv.reader(csvfile, delimiter=',', quotechar='"')
             for row in reader:
                 data.append(
                     {
@@ -245,10 +246,9 @@ class AcademicTeamQuestionGenerator:
                     }
                 )
 
-        rng = random.Random()
+        rng = random.Random(self.seedval)
         sample_size = 20
         return rng.sample(data, sample_size)
-
 
     def generate_document(self, output_base):
         """Generate PDF document with simple linked TOC"""
@@ -277,19 +277,19 @@ class AcademicTeamQuestionGenerator:
                 story.append(self.create_tossup_round(f"{n+1}", question))
                 story.append(Spacer(1, 15))
             
-        story.append(PageBreak())
+        # story.append(PageBreak())
 
-        # sixty-second section with anchor
-        data = self.get_sample_data2()
+        # # sixty-second section with anchor
+        # data = self.get_sample_data2()
 
-        story.extend(self.create_sixtysecond_round(data))
-        story.append(Spacer(width=0, height=10))
+        # story.extend(self.create_sixtysecond_round(data))
+        # story.append(Spacer(width=0, height=10))
 
-        story.extend(self.create_sixtysecond_round(data))
-        story.append(Spacer(width=0, height=10))
+        # story.extend(self.create_sixtysecond_round(data))
+        # story.append(Spacer(width=0, height=10))
 
-        story.extend(self.create_sixtysecond_round(data))
-        story.append(PageBreak())
+        # story.extend(self.create_sixtysecond_round(data))
+        # story.append(PageBreak())
 
         doc.build(story)
         print(f"PDF document saved as: {pdf_filename}")
@@ -297,11 +297,8 @@ class AcademicTeamQuestionGenerator:
 def main():
     """Main function"""
     parser = argparse.ArgumentParser(description='Academic Team Game Generator')
-    parser.add_argument('--questions', default='sample_questions.txt',
-                       help='questions file path')
-    parser.add_argument('--output', default='Questions',
-                       help='Output filename base')
-    
+    parser.add_argument('--questions', default='questions.csv', help='questions file path')
+    parser.add_argument('--output', default='Questions', help='Output filename base')
     args = parser.parse_args()
     
     generator = AcademicTeamQuestionGenerator(args.questions)

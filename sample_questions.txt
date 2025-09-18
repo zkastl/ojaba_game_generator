@@ -1,13 +1,13 @@
-"Given that 3<super>3</super> is 27, what is 3<super>4</super>?"	81	math	56
+Given that 3<super>3</super> is 27, what is 3<super>4</super>?	81	math	56
 Gerald Ford was sworn into office when what President resigned?	Richard Nixon	socialstudies	56
-"If 6 times <i>x</i> equals 78, what does <i>x</i> times 4 equal?"	52	math	56
-"Identify the proper nouns in the sentence, ""The captain sailed his ship to Africa and Asia."""	"Africa, Asia"	geography	56
+If 6 times <i>x</i> equals 78, what does <i>x</i> times 4 equal?	52	math	56
+Identify the proper nouns in the sentence, "The captain sailed his ship to Africa and Asia."	"Africa, Asia"	geography	56
 What compound that enters plant leaves through tiny holes called stomata is converted by the plant into sugar and water?	Carbon dioxide	science	56
 Name the ship that left England in 1620 carrying a load of Pilgrims headed for the New World. 	Mayflower	socialstudies	56
 Who is the President from the state of Missouri who gave the order to drop both atomic bombs on the country of Japan in 1945?	(Harry S) Truman	socialstudies	
-"Who is the colloquial author who grew up in Hannibal, Missouri, who penned works such as The Prince and the Pauper and The Adventures of Huckleberry Finn?"	Mark Twain (Samuel Clemens)	literature	
+Who is the colloquial author who grew up in Hannibal, Missouri, who penned works such as The Prince and the Pauper and The Adventures of Huckleberry Finn?	Mark Twain (Samuel Clemens)	literature	
 What is the city that is named after a President and serves as the state capitol of Missouri?	Jefferson City	geography	
-"Comprising of 18% of the human body, what element that has the symbol of C is the second most common element in the human body?"	Carbon  	science	
+Comprising of 18% of the human body, what element that has the symbol of C is the second most common element in the human body?	Carbon  	science	
 Who is the 35th President who is also known for being the first Catholic President of the United States?	(John F) Kennedy	socialstudies	
 What is the name for the collection of mysteries about a sharp-witted detective published in 1892 by British author Arthur Conan Doyle?	The Adventures of Sherlock Holmes	literature	
 What is the name for the capitol city of Massachusetts that is the site of the United States' most famous tea party?	Boston	geography	
@@ -15,11 +15,31 @@ What is name of this element with the atomic number of 7 that makes up the large
 What is the name of the 28th President who unsuccessfully tried to keep the United States out of World War I?	Woodrow Wilson	socialstudies	
 "Who famously penned the novel about a curious young girl named Alice, a Cheshire cat, a mad hatter, and an irate queen obsessed with decapitation?"	Lewis Carroll	literature	
 Lincoln is the capitol of what state known for having the United States' only unicameral legislature?	Nebraska	geography	
-"Which President, whose home is known as Monticello, was the primary author of the Declaration of Independence?"	Thomas Jefferson	socialstudies	
+Which President, whose home is known as Monticello, was the primary author of the Declaration of Independence?	Thomas Jefferson	socialstudies	
 What is the name of the book by L.M. Montgomery about a young red-haired girl growing up on Prince Edward Island in Canada?	Anne of Green Gables	literature	
 What is the name of the state capitol city that sits in the panhandle of Florida?	Tallahassee	geography	
-"It is, by mass, the most common element on Earth. What is the name of the element with the symbol Fe?"	Iron	science	
+It is, by mass, the most common element on Earth. What is the name of the element with the symbol "Fe"?	Iron	science	
 What is the full name of the first President whose father was also President?	John Quincy Adams	socialstudies	
-"In Charles Dickens's work A Tale of Two Cities, what are the two cities?"	Paris and London	literature	
+In Charles Dickens's work <i>A Tale of Two Cities</i>, what are the two cities?	Paris and London	literature	
 What is the name of the current state capitol that formerly served as the capitol city of the Confederacy?	"Richmond, Virginia"	socialstudies	
 What element is the most abundant mineral in the body?	Calcium	science	
+What is the pen name of the author whose real name was Samuel Clemens who is most famous for his story <i>The Adventures of Tom Sawyer</i>?	Mark Twain	literature
+"Which female writer created the series of novels about the four March sisters, the first of which being titled <i>Little Women</i>?"	Louisa May Alcott	literature
+Which author created the character Long John Silver for the novel <i>Treasure Island</i>?	Robert Louis Stevenson	literature
+What book by J.K. Rowling is the first in the series about young wizard students studying in a castle called Hogwarts?	Harry Potter and the Sorcerer’s Stone	literature
+"Which author created the magical world of Narnia in <i>The Lion, The Witch, and The Wardrobe?</i>"	C.S. Lewis	literature
+"Which element is the lightest of all elements and has the chemical symbol ""H""?"	Hydrogen	elements
+Which element has the chemical symbol K and is an important mineral found in bananas that helps your muscles work properly?	Potassium	elements
+"Which element has the chemical symbol ""B"" and is commonly used to make strong, heat-resistant glass like the kind used in kitchen measuring cups?"	Boron	elements
+"Which element has the chemical symbol ""C"" and is found in both the graphite in your pencil and in sparkling diamonds?"	Carbon	elements
+"Which element that makes up about 78% of the air we breathe every day has the chemical symbol ""N""?"	Nitrogen	elements
+"Which President served in the French & Indian War, is known as the ""Father of His Country"", and was the first person to hold the office of President of the United States?"	George Washington	presidents
+Which President was a lawyer who defended British soldiers after the Boston Massacre and later became the second President of the United States?	John Adams	presidents
+Which President wrote the Declaration of Independence and doubled the size of the United States by purchasing the Louisiana Territory from France? He’s the 3rd President of the United States.	Thomas Jefferson	presidents
+"Which President is known as the ""Father of the Constitution"" and was the shortest U.S. president at only 5 feet 4 inches tall? He was the 4th to hold the office."	James Madison	presidents
+Which President was the last Founding Father to hold the office and created the Monroe Doctrine that warned European countries to stay out of North and South America? He was the 5th President.	James Monroe	presidents
+Which city where Rosa Parks refused to give up her bus seat is also the capitol of Alabama?	Montgomery	capitols
+Which capitol city of “The Last Frontier” state can only be reached by boat or airplane because no roads connect it to the rest of North America?	Juneau	capitols
+Which state capitol is located in the Sonoran Desert and is one of the hottest major cities in the United States?	Arizona	capitols
+What is the capitol city of the state where Bill Clinton was born?	Little Rock	capitols
+Which capitol city shares its name with a famous river where people searched for gold during the California Gold Rush of 1849?	Sacramento	capitols
